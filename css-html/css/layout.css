@@ -1,0 +1,34 @@
+@media screen
+{
+    .site-logo
+    {
+      margin-bottom: 0;
+    }
+
+    .site-slogan
+    {
+      margin: 0;
+    }
+
+    .site-footer 
+    {
+      font-size: smaller;
+    }
+
+    .site-footer
+    {
+      background-color: #333;
+      padding: 0.3em;
+    }
+
+    .site-footer a
+    {
+        color:white;
+        text-decoration: none;
+    }
+    
+    .site-content 
+    {
+      line-height: 1.5;
+    }
+}
