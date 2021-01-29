@@ -4,7 +4,7 @@
     html
     {
         box-sizing: border-box;
-        background-image: url('back.png');
+        background-image: url('images/back.png');
         background-color: orange;
     }
     *, *:before, *:after
