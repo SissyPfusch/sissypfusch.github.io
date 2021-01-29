@@ -16,9 +16,9 @@
 
     .site-nav-list li
     {
-      display:inline;
-      margin-left: 1em;
+      list-style: none;
     }
+    
     .site-nav-list a
     {
         color:white;
