@@ -1,34 +1,46 @@
 @media screen
 {
-    .site-logo
-    {
-      margin-bottom: 0;
-    }
+  .site-header
+  {
+    margin-bottom: 0;
+    padding: 1rem 1rem 0 1rem
+  }
+  .site-logo
+  {
+    margin-bottom: 0;
+  }
 
-    .site-slogan
-    {
-      margin: 0;
-    }
+  .site-slogan
+  {
+    margin: 0;
+  }
 
-    .site-footer 
-    {
-      font-size: smaller;
-    }
+  .site-content
+  {
+    padding: 0 1rem;
+  }
 
-    .site-footer
-    {
-      background-color: #333;
-      padding: 0.3em;
-    }
+  .site-footer 
+  {
+    font-size: smaller;
+  }
 
-    .site-footer a
-    {
-        color:white;
-        text-decoration: none;
-    }
-    
-    .site-content 
-    {
-      line-height: 1.5;
-    }
+  .site-footer
+  {
+    background-color: #333;
+    padding: 0.3em;
+  }
+
+  .site-footer a
+  {
+    color:white;
+    text-decoration: none;
+    padding: 0 1rem;
+
+  }
+  
+  .site-content 
+  {
+    line-height: 1.5;
+  }
 }
