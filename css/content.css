@@ -21,26 +21,31 @@
     .infoboxes
     {
         background-color: #eee;
-        padding: 1em;
-        margin-bottom: 1em;
+        padding: 1rem;
+        margin-bottom: 1rem;
     }
 
     .infobox
     {
         text-align: center;
         background-color: white;
-        padding: 1em;
-        margin: 1em;
+        padding: 1rem;
+        margin: 1rem 0;
     }
-    
-    .kundenstimme {
+
+    .kundenstimme 
+    {
       background-color: #eee;
       padding: 1em;
       margin: 0 0 1em 0;
       text-align: center;
       border-left: 8px solid #0b74b8;
-      border-radius: 4px 40px 4px 4px;
       box-shadow: 10px 10px 10px rgba(33, 35, 44, 0.2);
-      background-image: linear-gradient(-25deg,rgb(217, 231, 250), rgb(253, 250, 230) 40%, rgb(255, 255, 248));
     }
+    
+    .kontaktdaten {
+      background-color: #eee;
+      padding: 1rem;
+      margin-bottom: 2rem;
+  }
 }

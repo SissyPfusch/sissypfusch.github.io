@@ -1,9 +1,25 @@
 @media screen
 {
+  body
+  {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    margin: 0;
+  }
+
+  .wrapper
+  {
+    min-width: 320px;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
   .site-header
   {
     margin-bottom: 0;
-    padding: 1rem 1rem 0 1rem
+    padding-top: 1rem;
   }
   .site-logo
   {
@@ -17,30 +33,21 @@
 
   .site-content
   {
-    padding: 0 1rem;
-  }
-
-  .site-footer 
-  {
-    font-size: smaller;
+    line-height: 1.5;
   }
 
   .site-footer
   {
     background-color: #333;
-    padding: 0.3em;
-  }
+    padding: 0.3em 0;
+    font-size: smaller;
+}
 
   .site-footer a
   {
     color:white;
     text-decoration: none;
-    padding: 0 1rem;
-
-  }
-  
-  .site-content 
-  {
-    line-height: 1.5;
+    padding: 1rem 0;
+    margin-top: 2rem;
   }
 }

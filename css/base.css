@@ -4,8 +4,7 @@
     html
     {
         box-sizing: border-box;
-        background-image: url('../images/back.png');
-        background-color: orange;
+        background-color: white;
     }
     *, *:before, *:after
     {
@@ -33,16 +32,6 @@
         white-space: nowrap;
     }
 
-    body
-    {
-        font-family: 'Source Sans Pro', Arial, sans-serif;
-        font-size: 1rem;
-        min-width: 320px;
-        max-width: 780px;
-        margin: 0 auto;
-        background-color: white;
-    }
-
     h1
     {
         font-size: 2.5rem;
@@ -63,15 +52,5 @@
     address
     {
         font-style: normal;
-    }
-
-    label
-    {
-        display: block;
-    }
-
-    form div
-    {
-        margin-bottom: 1em;
     }
 }

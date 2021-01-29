@@ -14,7 +14,7 @@
 </head>
 
 <body class="kontakteseite">
-    <header class="site-header">
+    <header class="site-header wrapper">
         <h1 class="site-logo">
             <img src="images/logo-html+css-222.gif"
                 srcset="images/logo-html+css-444.gif 2x, images/logo-html+css-666.gif 3x" alt="HTML + CSS" width="222"
@@ -26,16 +26,17 @@
     </header>
 
     <nav class="site-nav">
-        <ul class="site-nav-list">
-            <li><a href="index.html">Startseite</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="ueber-uns.html">Über uns</a></li>
-            <li><a href="kontakte.html" class="sie-sind-hier">Kontakte</a></li>
-        </ul>
-
+        <div class="wrapper">
+            <ul class="site-nav-list">
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="ueber-uns.html">Über uns</a></li>
+                <li><a href="kontakte.html" class="sie-sind-hier">Kontakte</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <main class="site-content">
+    <main class="site-content wrapper">
 
         <section class="content-intro">
             <h2>
@@ -68,7 +69,7 @@
                 </div>
                 <div>
                     <label for="besuchermail">Ihre E-Mail:</label>
-                    <input type="text" id="besuchermail" name="besuchermail">
+                    <input type="email" id="besuchermail" name="besuchermail">
                 </div>
                 <div>
                     <label for="nachricht">Ihre Nachricht:</label>
@@ -82,7 +83,9 @@
     </main>
 
     <footer class="site-footer">
-        <a href="#top">Nach oben</a>
+        <div class="wrapper">
+            <a href="#top">Nach oben</a>
+        </div>
     </footer>
 </body>
 

@@ -1,0 +1,14 @@
+@media print
+{
+    body
+    {
+        font-family: 'Source Sans Pro', Arial, sans-serif;
+        font-size: 12pt;
+    }
+    
+    .site-nav,
+    .site-footer
+    {
+        display: none;
+    }
+}
