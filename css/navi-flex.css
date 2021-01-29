@@ -1,0 +1,24 @@
+@media screen
+{
+    .site-nav-list
+    {
+      background-color: #333;
+      padding: 0.3em;
+    }
+
+    .site-nav-list li
+    {
+      display:inline;
+      margin-left: 1em;
+    }
+    .site-nav-list a
+    {
+        color:white;
+        text-decoration: none;
+    }
+
+    a.sie-sind-hier
+    {
+      text-decoration: underline;
+    }
+}
