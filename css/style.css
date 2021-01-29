@@ -6,6 +6,6 @@
 /* Import css files */
 @import url('base.css');
 @import url('layout.css');
-@import url('navi-inline.css');
+@import url('navi-flex.css');
 @import url('content.css');
 
