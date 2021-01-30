@@ -6,7 +6,7 @@
 /* Import css files */
 @import url('base.css');
 @import url('layout.css');
-@import url('navi-flex.css');
+@import url('navi-responsive.css');
 @import url('content.css');
 @import url('form.css');
 

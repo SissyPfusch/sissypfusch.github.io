@@ -11,6 +11,7 @@
   <meta name="description" content="Hier lernen sie das Erstellen und Gestalten von Web-Seiten mit HTML und CSS">
   <meta name="viewport" content="width = device-width, initial-scale = 1.0, shrink-to-fit = no">
   <link href="css/style.css" rel="stylesheet" \>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 
 <body class="newsseite">
@@ -26,6 +27,9 @@
 
   <nav class="site-nav">
     <div class="wrapper">
+      <button class="menubutton" onclick="this.classList.toggle('show-menu')">
+        <span class="fas fa-bars"></span>&nbsp;Menü
+      </button>
       <ul class="site-nav-list">
         <li><a href="index.html">Startseite</a></li>
         <li><a href="news.html" class="sie-sind-hier">News</a></li>
@@ -42,19 +46,22 @@
         News
       </h2>
       <p>
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-      </p>      
+        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit
+        amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      </p>
     </section>
 
     <article>
       <header>
         <h3>Hinter dem Mond</h3>
         <p class="Beitragsinfo">
-          <span class="autor">Anonymus</span> | 
+          <span class="autor">Anonymus</span> |
           <time datetime="2021-01-25">25. Januar</time>
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+          nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
         </p>
         <p>
           <a href="#" class="weiterlesen-link">Weiterlesen …</a>
@@ -66,11 +73,13 @@
       <header>
         <h3>Hinter dem Wald</h3>
         <p class="Beitragsinfo">
-          <span class="autor">Pangasius</span> | 
+          <span class="autor">Pangasius</span> |
           <time datetime="2021-01-23">23. Januar</time>
         </p>
         <p>
-          Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+          Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+          nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
         </p>
         <p>
           <a href="#" class="weiterlesen-link">Weiterlesen …</a>
@@ -82,11 +91,13 @@
       <header>
         <h3>Auf dem Mond</h3>
         <p class="Beitragsinfo">
-          <span class="autor">Hieronymus</span> | 
+          <span class="autor">Hieronymus</span> |
           <time datetime="2021-01-20">20. Januar</time>
         </p>
         <p>
-          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem
+          ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Donec quam felis,
+          ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
         </p>
         <p>
           <a href="#" class="weiterlesen-link">Weiterlesen …</a>
@@ -108,7 +119,8 @@
         <h3>Referenzen</h3>
         <ul>
           <li><a href="https://developer.mozilla.org/de/docs/Web/html/Element" target="_blank">HTML-Elemente</a></li>
-          <li><a href="https://developer.mozilla.org/de/docs/Web/html/attributes" target="_blank">HTML-Attribute</a></li>
+          <li><a href="https://developer.mozilla.org/de/docs/Web/html/attributes" target="_blank">HTML-Attribute</a>
+          </li>
           <li><a href="https://wiki.selfhtml.org/wiki/grafik/farbpaletten" target="_blank">Farbnamen</a></li>
         </ul>
       </section>

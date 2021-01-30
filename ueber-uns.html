@@ -11,6 +11,7 @@
     <meta name="description" content="Hier lernen sie das Erstellen und Gestalten von Web-Seiten mit HTML und CSS">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0, shrink-to-fit = no">
     <link href="css/style.css" rel="stylesheet" \>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 
 <body class="ueber-uns-seite">
@@ -27,6 +28,9 @@
 
     <nav class="site-nav">
         <div class="wrapper">
+            <button class="menubutton" onclick="this.classList.toggle('show-menu')">
+                <span class="fas fa-bars"></span>&nbsp;Menü
+            </button>
             <ul class="site-nav-list">
                 <li><a href="index.html">Startseite</a></li>
                 <li><a href="news.html">News</a></li>
@@ -38,12 +42,21 @@
 
     <main class="site-content wrapper">
 
-        <section class="content-intro">
+        <section class="content-intro flow-root-fix">
             <h2>
                 Über uns
             </h2>
+            <figure class="image-right">
+                <img src="images/waldemar-weber-150.gif" srcset="images/waldemar-weber-300.gif 2x," alt="Der Autor"
+                    width="150" height="150">
+                <figcaption>
+                    Der Autor
+                </figcaption>
+            </figure>
             <p>
-                Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consectetuer adipiscing
+                elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
             </p>
         </section>
 

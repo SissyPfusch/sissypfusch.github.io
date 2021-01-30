@@ -1,0 +1,118 @@
+@media screen
+{
+
+    .menubutton
+    {
+        display: block;
+        background-color: #666;
+        color: white;
+        font-family: inherit;
+        font-size: inherit;
+        text-align: center;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.25rem;
+        margin: 0 1rem 0.5rem 1rem;
+    }
+
+    .site-nav > .wrapper
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .site-nav
+    {
+        position: sticky;
+        top: 0;
+        background-color: #333;
+        padding: 0.5rem 0 0 0;
+        margin: 1rem 0;
+        box-shadow: 0 2px 6px rgba(50, 50, 50, 0.3)
+    }
+
+    .site-nav-list
+    {
+        display: flex;
+        flex-flow: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .site-nav-list li
+    {
+      list-style: none;
+    }
+
+    .site-nav-list a
+    {
+        display: block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        color:white;
+        background-color: #333;
+   }
+
+   .site-nav-list a.sie-sind-hier
+    {
+        background-color: #666;
+    }
+
+    .site-nav-list a:hover,
+    .site-nav-list a:focus
+    {
+        background-color: #666;
+    }
+
+    .site-nav-list a:active
+    {
+        background-color: #0b74b8;
+    }
+
+    /* Hide nav-list */
+    .site-nav-list
+    {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    /* Show nav-list */
+    .show-menu + .site-nav-list
+    {
+        max-height: 100rem;
+        transition: max-height 800ms ease-in-out;
+    }
+
+    @media screen and (min-width: 760px)
+    {
+        .menubutton
+        {
+            display: none;
+        }
+
+        .site-nav-list
+        {
+            max-height: none;
+            overflow: auto;
+            transition: none;
+            flex-flow: row;
+            flex-wrap: wrap;
+        }
+
+        .site-nav
+        {
+            padding:0;
+        }
+
+        .site-nav > .wrapper
+        {
+            padding: 0 1rem;
+        }
+
+        .site-nav-list li
+        {
+            display: inline-block;
+        }
+    }
+
+}

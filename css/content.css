@@ -18,6 +18,11 @@
       color: #900000;
     }
 
+    .site-content a[href^="http"]::after /* Puts an ⧉ after http links */
+    {
+      content: " \29C9";
+    }
+
     .infoboxes
     {
         background-color: #eee;
@@ -42,10 +47,29 @@
       border-left: 8px solid #0b74b8;
       box-shadow: 10px 10px 10px rgba(33, 35, 44, 0.2);
     }
-    
-    .kontaktdaten {
+
+    .kontaktdaten 
+    {
       background-color: #eee;
       padding: 1rem;
       margin-bottom: 2rem;
-  }
+    }
+
+    .image-right
+    {
+      float: right;
+    }
+
+    figcaption
+    {
+      text-align: center;
+      font-size: 80%;
+      font-style: italic;
+    }
+
+    .flow-root-fix
+    {
+        display: flow-root;
+    }
+
 }
