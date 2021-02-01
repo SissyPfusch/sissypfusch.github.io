@@ -83,7 +83,7 @@
         transition: max-height 800ms ease-in-out;
     }
 
-    @media screen and (min-width: 760px)
+    @media screen and (min-width: 768px)
     {
         .menubutton
         {
@@ -112,6 +112,15 @@
         .site-nav-list li
         {
             display: inline-block;
+            text-align: center;
+            border-right: 1px solid #eee;
+            flex: 1;
+            max-width: 170px;
+        }
+
+        .site-nav-list li:first-child
+        {
+            border-left: 1px solid #eee;
         }
     }
 

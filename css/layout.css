@@ -6,12 +6,15 @@
     font-size: 1rem;
     background-color: white;
     margin: 0;
+    min-height: 100vh; 
+    display: flex; 
+    flex-flow: column; 
   }
 
   .wrapper
   {
     min-width: 320px;
-    max-width: 780px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 1rem;
   }
@@ -36,11 +39,30 @@
     line-height: 1.5;
   }
 
+  @media screen and (min-width: 768px)
+  {
+    .news .site-content .wrapper
+    {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-areas:
+        "intro intro"
+        "col1 col2";
+      grid-column-gap: 3rem;
+    }
+
+    .news .site-content .content-intro
+    {
+      grid-area: intro;
+    }
+  }
+
   .site-footer
   {
     background-color: #333;
     padding: 0.3em 0;
     font-size: smaller;
+    margin-top: auto;
 }
 
   .site-footer a
@@ -48,6 +70,5 @@
     color:white;
     text-decoration: none;
     padding: 1rem 0;
-    margin-top: 2rem;
   }
 }

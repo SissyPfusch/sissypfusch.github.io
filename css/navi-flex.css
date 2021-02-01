@@ -21,6 +21,7 @@
     .site-nav-list li
     {
       list-style: none;
+      max-width: 170px;
     }
 
     .site-nav-list a

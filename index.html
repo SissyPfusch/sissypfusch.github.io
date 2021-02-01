@@ -15,7 +15,8 @@
 </head>
 
 <body class="startseite">
-  <header class="site-header wrapper">
+  <header class="site-header">
+    <div class="wrapper">
     <h1 class="site-logo">
       <img src="images/logo-html+css-222.gif" srcset="images/logo-html+css-444.gif 2x, images/logo-html+css-666.gif 3x"
         alt="HTML + CSS" width="222" height="33">
@@ -23,6 +24,7 @@
     <p class="site-slogan">
       Webseiten erstellen und gestalten
     </p>
+  </div>
   </header>
 
   <nav class="site-nav">
@@ -40,7 +42,7 @@
   </nav>
 
   <main class="site-content">
-    <section class="content-intro wrapper">
+    <section class="wrapper">
       <h2>
         Willkommen
       </h2>
@@ -67,22 +69,19 @@
         <article class="infobox">
           <a href="news.html"><span class="fas fa-rss fa-4x"></span></a>
           <h3>News</h3>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr et dolore magna aliquyam erat, sed diam voluptua.</p>
           <a href="news.html">Ab zum Blog</a>
         </article>
         <article class="infobox">
           <a href="ueber-uns.html"><span class="fas fa-users fa-4x"></span></a>          
           <h3>Über uns</h3>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
           <a href="ueber-uns.html">Wer wir sind</a>
         </article>
         <article class="infobox">
           <a href="kontakte.html"><span class="fas fa-at fa-4x"></span></a>          
           <h3>Kontakt</h3>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
           <a href="kontakte.html">Hallo sagen</a>
         </article>
       </div>
@@ -115,7 +114,13 @@
 
   <footer class="site-footer">
     <div class="wrapper">
-      <a href="#top">Nach oben</a>
+      <nav class="meta-nav">
+        <ul class="meta-nav-list">
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+          <li><a href="#top">Nach oben</a></li>
+        </ul>
+      </nav>
     </div>
   </footer>
 </body>

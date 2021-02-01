@@ -15,15 +15,16 @@
 </head>
 
 <body class="kontakteseite">
-    <header class="site-header wrapper">
+    <header class="site-header">
+        <div class="wrapper">
         <h1 class="site-logo">
-            <img src="images/logo-html+css-222.gif"
-                srcset="images/logo-html+css-444.gif 2x, images/logo-html+css-666.gif 3x" alt="HTML + CSS" width="222"
-                height="33">
+          <img src="images/logo-html+css-222.gif" srcset="images/logo-html+css-444.gif 2x, images/logo-html+css-666.gif 3x"
+            alt="HTML + CSS" width="222" height="33">
         </h1>
         <p class="site-slogan">
-            Webseiten erstellen und gestalten
+          Webseiten erstellen und gestalten
         </p>
+      </div>
     </header>
 
     <nav class="site-nav">
@@ -40,8 +41,7 @@
         </div>
     </nav>
 
-    <main class="site-content wrapper">
-
+    <main class="wrapper">
         <section class="content-intro">
             <h2>
                 Kontakte
@@ -88,7 +88,13 @@
 
     <footer class="site-footer">
         <div class="wrapper">
-            <a href="#top">Nach oben</a>
+            <nav class="meta-nav">
+                <ul class="meta-nav-list">
+                  <li><a href="#">Impressum</a></li>
+                  <li><a href="#">Datenschutz</a></li>
+                  <li><a href="#top">Nach oben</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
 </body>
